@@ -51,6 +51,10 @@ body {
     margin-top: 100px;
   }
 
+  .user-container-draft{
+    margin-top: 50px;
+  }
+
   input{
     background-color: #202020;
     border-color: #000000;
@@ -75,14 +79,27 @@ body {
     padding: 1%;
     font-size: 1.5em;
   }
+
   .comment-actions button {
     margin-left: 0.5%;
     margin-bottom: 0.5%;
     line-height: 1
   }
+
+  .draft-actions button {
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    line-height: 1.25
+  }  
+
+  .editor {
+    align-items: center !important;
+  }
+
   .reply-input {
     margin-left: 10%;
   }
+
   .single-comment {
     margin: 0.75% 0;
     border: 1px solid #404040;
