@@ -35,6 +35,9 @@ const ExpandMore = styled((props) => {
 
 const Post = () => {
 
+    const router = useRouter()
+    const { postid } = router.query
+
     const [expanded, setExpanded] = React.useState(false);
     const handleExpandClick = () => {
         setExpanded(!expanded);
