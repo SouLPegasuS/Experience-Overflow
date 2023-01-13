@@ -26,7 +26,7 @@ export default function Home() {
           {/* <Rightbar /> */}
 
           <Box flex={1} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
-            <Box position="fixed" width={300} sx={{ overflowY : "scroll", minHeight: 0}} >
+            <Box position="fixed" width={300} sx={{ overflowY : "scroll", top : "63px", bottom : "0"}} >
             <FormGroup>
               <FormControlLabel control={<Checkbox/>} label="Google" />
             </FormGroup>
